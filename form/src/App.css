@@ -1,0 +1,66 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.877),
+      rgba(0, 0, 0, 0.219)
+    ),
+    url("/src/components/img/qBotica-hero-blur-1.png"); 
+  background-size: cover;
+  background-position: center;
+}
+
+form{
+    background-color: white;
+    padding: 0px 60px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+h1{
+    color: #FF7705;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button{
+    height: 50px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.btn-1 button{
+   width: 130px;
+   float: left;
+   background-color: #FF7705;
+   border: 1px solid #FF7705;
+ }
+.btn-2 button{
+   width: 130px;
+   float: right;
+   border: 1px solid #FF7705;
+   color: #FF7705;
+   background-color: white;
+ }
+
+ .btn-1 button:hover{
+  background-color: #ec7009;
+ }
+
+ .btn-2 button:hover{
+  border: 1px none;
+  background-color: #FF7705;
+  color: white;
+ }  
+
+
+
+
